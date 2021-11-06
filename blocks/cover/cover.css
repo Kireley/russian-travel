@@ -1,0 +1,10 @@
+.cover {
+	margin: 0 auto 92px;
+	display: inherit;
+}
+
+@media screen and (max-width: 320px) {
+	.cover {
+		margin: 0 0 68px;
+	}
+}
