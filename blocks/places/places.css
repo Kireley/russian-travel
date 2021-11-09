@@ -1,7 +1,7 @@
 .places {
 	display: grid;
 	grid-template-columns: 1fr;
-	row-gap: 80px;
+
   box-sizing: border-box;
 }
 
@@ -14,12 +14,14 @@
 
 @media screen and (min-width: 768px) {
 	.places {
+    gap: 74px;
 		padding: 0 24px 90px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.places {
+    gap: 80px;
 		padding: 0 calc(48px + 100 * ((100vw - 1024px) / 256)) 92px;
 	}
 }
