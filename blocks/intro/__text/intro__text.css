@@ -2,8 +2,8 @@
 	position: relative;
 	margin: 0 0 33px;
 	max-width: 690px;
-	width: 100vw;
-	font-family: Inter;
+	width: 100%;
+	font-family: 'Inter', Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -12,8 +12,3 @@
 	color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
-	.intro__text {
-		max-width: 288px;
-	}
-}

@@ -4,9 +4,17 @@
 	flex-direction: column;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
 	.place__website {
 		justify-self: center;
 		width: 90%;
 	}
 }
+
+@media screen and (min-width: 768px) {
+	.place__website {
+		justify-self: auto;
+		width: 100%;
+	}
+}
+
