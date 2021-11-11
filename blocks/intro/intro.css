@@ -1,21 +1,31 @@
 .intro {
-	max-width: 984px;
-	width: 100vw;
+  max-width: 984px;
+  width: 100vw;
+  align-self: center;
   box-sizing: border-box;
+  position: relative;
 }
 
 @media screen and (min-width: 320px) {
   .intro {
-  padding: 0 16px 64px;
+    padding: 0 16px 64px;
   }
 }
+
 @media screen and (min-width: 768px) {
-	.intro {
+  .intro {
     padding: 0 24px 88px;
-	}
+  }
 }
+
 @media screen and (min-width: 1024px) {
-	.intro {
+  .intro {
     padding: 0 48px 92px;
-	}
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding: 0 0 92px;
+  }
 }
