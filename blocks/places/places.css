@@ -1,7 +1,6 @@
 .places {
 	display: grid;
 	grid-template-columns: 1fr;
-
   box-sizing: border-box;
 }
 
@@ -28,6 +27,5 @@
 @media screen and (min-width: 1280px) {
 	.places {
 		padding: 0 148px 92px;
-
 	}
 }
