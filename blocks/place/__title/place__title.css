@@ -1,35 +1,37 @@
 .place__title {
-	margin: 0;
-	width: 100%;
-	font-family: 'Inter', Arial, sans-serif;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 72px;
-	line-height: 76px;
-	/* or 106% */
-	color: #FFFFFF;
+  margin: 0;
+  width: 100%;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 320px) {
-	.place__title {
+  .place__title {
     font-size: calc(32px + 10 * ((100vw - 320px) / (768 - 320)));
-		justify-self: center;
-		width: 90%;
+    justify-self: center;
+    width: 90%;
     line-height: 35px;
-	}
+  }
 }
+
 @media screen and (min-width: 768px) {
-	.place__title {
+  .place__title {
     font-size: calc(42px + 30 * ((100vw - 768px) / (1024 - 768)));
     line-height: calc(110% - 4 * ((100vw - 768px) / (1024 - 768)));
-		justify-self:auto;
-		width: 100%;
-	}
+    justify-self: auto;
+    width: 100%;
+  }
 }
+
 @media screen and (min-width: 1024px) {
-	.place__title {
+  .place__title {
     font-size: 72px;
     line-height: 106%;
-		width: 100%;
-	}
+    width: 100%;
+  }
 }

@@ -1,14 +1,14 @@
 .footer__row-links {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 38px 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px 18px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 @media screen and (max-width: 320px) {
-	.footer__row-links {
-		flex-direction: column;
-	}
+  .footer__row-links {
+    flex-direction: column;
+  }
 }
